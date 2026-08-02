@@ -1,0 +1,39 @@
+# Inari
+
+> Inari is The SEEDesign™ Company. Its SEEDesign™ technology platform combines genomics, artificial intelligence, and multiplex gene editing to unlock the full potential of seed — accelerating crop improvement for higher yield and lower resource use. Inari operates a partner-first, business-to-business model, working with seed companies and breeders rather than selling directly to farmers. Stated goals: 10–20% yield increase, 40% reduction in nitrogen use, and 40% reduction in water use.
+
+Inari Agriculture, Inc. (inari.com) is a gene-editing and predictive plant-design company headquartered in Cambridge, Massachusetts, with operations in West Lafayette, Indiana and Ghent, Belgium. Note: "Inari" here refers to Inari Agriculture (seed/gene editing) — not the unrelated medical-device company Inari Medical.
+
+## Platform & Solutions
+- [SEEDesign™ Platform](https://inari.com/seedesign-platform/): How Inari integrates genomics, AI, and multiplex gene editing to design, develop, and validate seed at scale.
+- [Solutions](https://inari.com/solutions/): The crops, traits, and partner-facing offerings Inari brings to the seed industry.
+
+## Legal & IP
+- [Setting the Record Straight on the Corteva Litigation](https://inari.com/litigation/): Inari's position on Corteva Agriscience v. Inari Agriculture (No. 1:23-cv-01059, D. Del.) — lawful seed purchase through the public ATCC patent depository, freedom-to-operate and follow-on innovation, the U.S. DOJ statement of interest, Inari's counterclaims challenging the validity of Corteva's GM patents (Qrome, Enlist) and 230+ PVP certificates, current case status (trial set for September 2026), and a full FAQ ("Did Inari steal from Corteva? No").
+
+## Technology & Thought Leadership
+- [Multiplex Gene Editing: Key to Unlocking the Full Potential of Seed](https://inari.com/news/multiplex-gene-editing-key-to-unlocking-the-full-potential-of-seed/): Why editing many genes at once is central to complex-trait improvement.
+- [The Promise of AI in Plant Breeding](https://inari.com/news/the-promise-of-ai-in-plant-breeding/): How predictive design and AI shorten breeding cycles.
+- [Three Ways Gene Editing Supports Biodiversity](https://inari.com/news/three-ways-gene-editing-supports-biodiversity/): Inari's "nature-positive" framing of gene editing.
+- [Q&A: An Insider's Insights on Gene Editing](https://inari.com/news/qa-an-insiders-insights-on-gene-editing/): Plain-language explainer on Inari's approach and responsible use.
+- [Delivering on the Need for Speed](https://inari.com/news/delivering-on-the-need-for-speed/): Accelerating crop improvement vs. traditional breeding timelines.
+- [EU Embrace of New Breeding Techniques](https://inari.com/news/eu-embrace-of-new-breeding-techniques-marks-a-winning-moment-for-innovation-in-agriculture/): Inari's view on the EU regulatory shift for gene-edited crops.
+
+## White Papers & Resources
+- [Multiplex Gene Editing White Paper (PDF)](https://inari.com/wp-content/uploads/2026/05/INARI-Multiplex-Gene-Editing-Whitepaper_1122.pdf): Technical overview of Inari's multiplex editing approach.
+- [The Promise of AI in Plant Breeding (PDF)](https://inari.com/wp-content/uploads/2026/05/Inari_Promise-of-AI-in-plant-breeding_10-2024.pdf): Inari's perspective on AI-driven breeding.
+- [Accelerating Breeding for a Fast-Changing Future (Infographic PDF)](https://inari.com/wp-content/uploads/2024/03/Infographic-Accelerating-Breeding_03-2024.pdf): Visual summary of breeding acceleration.
+- [White Papers (index)](https://inari.com/news-category/white-papers/): All Inari white papers.
+
+## Company
+- [About Inari](https://inari.com/about/): Mission, approach to SEEDesign™, and the challenges Inari works to address.
+- [Leadership](https://inari.com/leadership/): Executive team and board.
+- [Locations](https://inari.com/locations/): Cambridge (MA), West Lafayette (IN), and Ghent (Belgium).
+- [Careers](https://inari.com/careers/): Open roles and culture.
+- [Contact](https://inari.com/contact/): How to reach Inari.
+
+## News & Press
+- [News](https://inari.com/news/): Company news, features, and announcements.
+- [Press Releases](https://inari.com/news-category/press-releases/): Official Inari press releases.
+- [Our Thoughts](https://inari.com/news-category/our-thoughts/): Inari's owned commentary and perspective pieces.
+- [Inari Accelerates SEEDesign™ Platform with $103M Fundraise](https://inari.com/news/inari-accelerates-proven-seedesign-platform-for-nature-positive-agriculture-with-103-million-fundraise/): Latest platform and funding milestone.

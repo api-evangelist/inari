@@ -1,17 +1,36 @@
 aid: inari
 name: Inari
-description: 'Inari is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Inari Agriculture, Inc. — "The SEEDesign company" — is a Cambridge, Massachusetts
+  agricultural biotechnology company founded by Flagship Pioneering in 2016, with additional
+  sites in West Lafayette, Indiana and Ghent, Belgium. Its SEEDesign platform combines
+  genomics, artificial intelligence and predictive design with a multiplex gene-editing
+  toolbox to accelerate crop improvement in soybean, corn and wheat, targeting 10-20%
+  yield gains alongside roughly 40% reductions in nitrogen and water use. Inari runs
+  a partner-first, business-to-business model, licensing designed seed to independent
+  seed companies and breeders rather than selling to farmers directly. Inari publishes
+  an llms.txt at inari.com/llms.txt but operates no public developer program, API,
+  or machine-readable API contract; its data platform (Databricks-based) is internal.
+  Not to be confused with the unrelated medical-device company Inari Medical.'
+image: https://inari.com/wp-content/uploads/2026/05/inari-social-image.png
 url: https://raw.githubusercontent.com/api-evangelist/inari/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass
 specificationVersion: '0.20'
 created: '2026-08-01'
 modified: '2026-08-01'
 tags:
 - Company
+- Agriculture
+- Agriculture Technology
+- Biotechnology
+- Gene Editing
+- Genomics
+- Artificial Intelligence
+- Plant Breeding
+- Seeds
+- Food and Beverage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,49 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/inari-domain-security.yml
 - type: Website
+  url: https://inari.com/
+- type: About
+  url: https://inari.com/about/
+- type: Contact
+  url: https://inari.com/contact/
+- type: Careers
+  url: https://inari.com/careers/
+- type: Blog
+  url: https://inari.com/news/
+- type: BlogRSS
+  url: https://inari.com/feed/
+- type: PressReleases
+  url: https://inari.com/news-category/press-releases/
+- type: WhitePapers
+  url: https://inari.com/news-category/white-papers/
+- type: PrivacyPolicy
+  url: https://inari.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/inariag
+- type: SecondaryMarket
   url: https://forgeglobal.com/inari_stock/
+- type: LLMsTxt
+  url: llms/inari-llms.txt
+x-api-surface:
+  status: none
+  probed: '2026-08-01'
+  note: >-
+    Contract discovery found no machine-readable API contract and no public
+    developer program. Probed inari.com, www.inari.com and api.inari.com for
+    /openapi.json, /openapi.yaml, /swagger.json, /v1/openapi.json, /api-docs,
+    /docs, /redoc and /graphql — all 404 on inari.com/www.inari.com; api.inari.com
+    does not resolve (NXDOMAIN), as do docs., developer., dev., portal., data.,
+    mcp., app., platform., status., trust. and security..inari.com. No OpenAPI,
+    no GraphQL, no MCP server, no A2A agent card, no AsyncAPI, no webhooks, no
+    SDK on npm/PyPI (the `inari` packages on both registries are unrelated
+    third-party projects), no status page, no changelog and no /.well-known/
+    surface. Inari is an ag-biotech R&D company with an internal, Databricks-based
+    data platform; its only machine-readable public document is llms.txt.
+x-enrichment:
+  date: '2026-08-01'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

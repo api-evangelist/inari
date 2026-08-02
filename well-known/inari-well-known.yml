@@ -1,0 +1,74 @@
+generated: '2026-08-01'
+method: probed
+source: live GET of /.well-known/* on every host in apis.yml
+note: >-
+  Probed on 2026-08-01. Inari Agriculture publishes no /.well-known/ discovery
+  surface. All candidate paths returned HTTP 404 with an HTML body from the
+  WordPress marketing site. A control path (/llms-zzz-control.txt) also returned
+  404, confirming the host serves real 404s and that the single 200 observed
+  (/llms.txt) is a genuinely published document rather than a catch-all.
+  No WellKnown / SecurityTxt / APICatalog pointer is wired in apis.yml because
+  nothing was found — recording the negative, not manufacturing a surface.
+hosts_probed:
+- inari.com
+- www.inari.com
+- api.inari.com
+unresolved_hosts:
+- host: api.inari.com
+  dns: NXDOMAIN
+documents:
+- path: /.well-known/security.txt
+  host: inari.com
+  status: 404
+- path: /.well-known/openid-configuration
+  host: inari.com
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: inari.com
+  status: 404
+- path: /.well-known/api-catalog
+  host: inari.com
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: inari.com
+  status: 404
+- path: /.well-known/agent-card.json
+  host: inari.com
+  status: 404
+- path: /.well-known/agent.json
+  host: inari.com
+  status: 404
+- path: /.well-known/security.txt
+  host: www.inari.com
+  status: 404
+- path: /.well-known/openid-configuration
+  host: www.inari.com
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: www.inari.com
+  status: 404
+- path: /.well-known/api-catalog
+  host: www.inari.com
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: www.inari.com
+  status: 404
+- path: /.well-known/agent-card.json
+  host: www.inari.com
+  status: 404
+- path: /.well-known/agent.json
+  host: www.inari.com
+  status: 404
+adjacent_findings:
+- kind: caa-iodef
+  value: 'mailto:certs@inari.com'
+  source: CAA record on inari.com
+  note: >-
+    A certificate-problem reporting address exists in DNS, but it is not a
+    vulnerability disclosure policy and does not satisfy RFC 9116. No
+    security.txt, no /security or /responsible-disclosure page, and no bug
+    bounty program was found (probe-security-programs.py: vdp=none trust=none).
+x-evidence:
+  fetched: '2026-08-01'
+  control_path: /llms-zzz-control.txt
+  control_status: 404
