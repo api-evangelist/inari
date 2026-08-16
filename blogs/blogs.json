@@ -13,7 +13,8 @@
       "feed_url": "https://inari.com/news/",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "none",
+      "error": "parse_failed"
     },
     {
       "source": "https://inari.com/careers/",
@@ -24,5 +25,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-06T14:08:46Z"
+  "fetched": "2026-08-15T12:11:08Z"
 }
