@@ -11,6 +11,17 @@ description: 'Inari Agriculture, Inc. — "The SEEDesign company" — is a Cambr
   an llms.txt at inari.com/llms.txt but operates no public developer program, API,
   or machine-readable API contract; its data platform (Databricks-based) is internal.
   Not to be confused with the unrelated medical-device company Inari Medical.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://inari.com/wp-content/uploads/2026/05/inari-social-image.png
 url: https://raw.githubusercontent.com/api-evangelist/inari/refs/heads/main/apis.yml
 x-type: company
