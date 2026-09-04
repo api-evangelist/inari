@@ -22,6 +22,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://inari.com/wp-content/uploads/2026/05/inari-social-image.png
 url: https://raw.githubusercontent.com/api-evangelist/inari/refs/heads/main/apis.yml
 x-type: company
