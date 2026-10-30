@@ -64,30 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Inari Agriculture, Inc. — "The SEEDesign company" — is a Cambridge, Massachusetts agricultural
-biotechnology company founded by Flagship Pioneering in 2016, with additional sites in West Lafayette,
-Indiana and Ghent, Belgium. Its SEEDesign platform combines genomics, artificial intelligence and
-predictive design with a multiplex gene-editing toolbox to accelerate crop improvement in soybean, corn
-and wheat. Inari runs a partner-first, business-to-business model, licensing designed seed to independent
-seed companies and breeders rather than selling to farmers directly.
+Inari Agriculture, Inc. — "The SEEDesign company" — is a Cambridge, Massachusetts agricultural biotechnology company founded by Flagship Pioneering in 2016, with additional sites in West Lafayette, Indiana and Ghent, Belgium. Its SEEDesign platform combines genomics, artificial intelligence and predictive design with a multiplex gene-editing toolbox to accelerate crop improvement in soybean, corn and wheat, targeting 10-20% yield gains alongside roughly 40% reductions in nitrogen and water use. Inari runs a partner-first, business-to-business model, licensing designed seed to independent seed companies and breeders rather than selling to farmers directly. Inari publishes an llms.txt at inari.com/llms.txt but operates no public developer program, API, or machine-readable API contract; its data platform (Databricks-based) is internal. Not to be confused with the unrelated medical-device company Inari Medical.
 
-Not to be confused with the unrelated medical-device company Inari Medical, the customer-feedback SaaS
-at useinari.com, or the insurance software vendor at inari.io.
+**Areas:** Company · Agriculture · AgTech · Biotechnology · Gene Editing · Genomics · Artificial Intelligence · Plant Breeding · Seeds · Food and Beverage
 
-- Website: https://inari.com/
-- News: https://inari.com/news/
-- Secondary market listing: https://forgeglobal.com/inari_stock/
+## Inari on APIs.io
 
-## API surface
+Everything profiled for Inari is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/inari/](https://apis.io/providers/inari/)** — or go straight to one of the APIs or properties below.
 
-**None.** As of 2026-08-01 Inari publishes no API, no developer portal, and no machine-readable API
-contract. Contract discovery probed `inari.com`, `www.inari.com` and `api.inari.com` for OpenAPI,
-Swagger, GraphQL, MCP and A2A surfaces and found nothing; every candidate API subdomain is NXDOMAIN.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | File | Method |
-|---|---|---|
-| llms.txt | `llms/inari-llms.txt` | searched — verbatim from https://inari.com/llms.txt |
-| Well-known index | `well-known/inari-well-known.yml` | probed — all paths 404 (recorded negative) |
-| Domain security | `security/inari-domain-security.yml` | probed — TLS 1.3, HSTS 1y, CAA, SPF, DMARC p=reject, no DNSSEC |
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Inari Domain Security](https://apis.io/security/inari/inari-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://inari.com/)
+- [Blog](https://inari.com/news/)
+- [Privacy policy](https://inari.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 7.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/inari/](https://apis.io/providers/inari/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Inari: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/inari/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
